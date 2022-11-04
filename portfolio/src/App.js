@@ -1,28 +1,32 @@
 import { Route, Routes } from "react-router-dom";
-import SpeedDialComponent from "./components/UI/SpeedDialComponent";
+import NavBar from "./components/UI/nav-bar/NavBar";
+import ScrollUp from "./components/UI/scroll-up/ScrollUp";
+import SpeedDialComponent from "./components/UI/speed-dial-component/SpeedDialComponent";
+import AboutMe from "./screens/AboutMe";
+import Certificates from "./screens/Certificates";
 import HomeScreen from "./screens/HomeScreen";
+import Projects from "./screens/Projects";
 
 function App() {
   return (
-    <div style={{ position: "relative" }} heigh="100%">
+    <div
+      style={{
+        position: "relative",
+        backgroundColor: "#252525",
+        minHeight: "100vh",
+      }}
+      className="h-100 text-light"
+    >
+      <ScrollUp />
+      <NavBar />
+
       <Routes>
         <Route path="/portfolio" element={<HomeScreen />} />
-
-        <Route
-          path="/calendly"
-          element={() => {
-            window.location.href =
-              "https://areantbd.github.io/OTFN-Online-Tools-For-Noobs/";
-            return null;
-          }}
-        />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/certificates" element={<Certificates />} />
       </Routes>
-      <a
-        href="https://areantbd.github.io/OTFN-Online-Tools-For-Noobs/"
-        target="blank_"
-      >
-        Online tools for noobs
-      </a>
+
       <div className="fixed-bottom">
         <SpeedDialComponent />
       </div>
