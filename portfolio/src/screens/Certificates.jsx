@@ -1,6 +1,6 @@
 import React from "react";
 import CertificateCard from "../components/certificate-card/CertificateCard";
-import certificatesData from "../data/certificatesData";
+import certificatesData from "../data/certificates/certificatesData";
 
 function Certificates() {
   return (
