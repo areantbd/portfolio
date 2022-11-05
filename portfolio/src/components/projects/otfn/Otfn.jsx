@@ -16,19 +16,19 @@ function Otfn() {
       >
         <div className="carousel-inner ">
           <div className="carousel-item active">
-            <img src={menu} className="d-block w-50 mx-auto"  alt="..." />
+            <img src={menu} className="d-block w-75 mx-auto"  alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={google} className="d-block w-50 mx-auto" alt="..." />
+            <img src={google} className="d-block w-75 mx-auto" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={pdf} className="d-block w-50 mx-auto" alt="..." />
+            <img src={pdf} className="d-block w-75 mx-auto" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={audio} className="d-block w-50 mx-auto" alt="..." />
+            <img src={audio} className="d-block w-75 mx-auto" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={varios} className="d-block w-50 mx-auto" alt="..." />
+            <img src={varios} className="d-block w-75 mx-auto" alt="..." />
           </div>
         </div>
         <button
