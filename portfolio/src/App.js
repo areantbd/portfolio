@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/UI/nav-bar/NavBar";
-import ScrollUp from "./components/UI/scroll-up/ScrollUp";
 import SpeedDialComponent from "./components/UI/speed-dial-component/SpeedDialComponent";
 import AboutMe from "./screens/AboutMe";
 import Certificates from "./screens/Certificates";
@@ -17,7 +16,6 @@ function App() {
       }}
       className="h-100 text-light"
     >
-      <ScrollUp />
       <NavBar />
 
       <Routes>

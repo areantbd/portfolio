@@ -8,6 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlined";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import { grey } from "@mui/material/colors";
+import ScrollUp from "../scroll-up/ScrollUp";
 
 
 
@@ -69,7 +70,7 @@ export default function SpeedDialComponent() {
       <Box sx={{ height: 320, transform: "translateZ(0px)", flexGrow: 1 }}>
         <SpeedDial
           ariaLabel="SpeedDial openIcon example"
-          sx={{ position: "absolute", bottom: 16, left: 16 }}
+          sx={{ position: "absolute", bottom: 16, left: 16, height: 80}}
           icon={<ConnectWithoutContactOutlinedIcon />}
           FabProps={{
             sx: {
@@ -88,6 +89,7 @@ export default function SpeedDialComponent() {
             />
           ))}
         </SpeedDial>
+      <ScrollUp />
       </Box>
     </>
   );
