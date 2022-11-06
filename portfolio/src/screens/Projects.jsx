@@ -8,7 +8,7 @@ import TvTracker from "../components/projects/tv-tracker/TvTracker";
 
 function Projects() {
   return (
-    <div>
+    <div className="pb-5">
       <Section title="My Portfolio" className="mt-3" />
       <Portfolio />
 
