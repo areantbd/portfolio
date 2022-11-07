@@ -4,7 +4,7 @@ import certificatesData from "../data/certificates/certificatesData";
 
 function Certificates() {
   return (
-    <div className="container mt-4 row gap-3 mx-auto justify-content-between align-items-center pb-5">
+    <div className="container pt-4 row gap-3 mx-auto justify-content-between align-items-center pb-5">
       {certificatesData.map((certificate) => (
         <CertificateCard {...certificate} key={certificate.date} />
       ))}

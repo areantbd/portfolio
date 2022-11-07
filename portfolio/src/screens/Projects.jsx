@@ -8,20 +8,20 @@ import TvTracker from "../components/projects/tv-tracker/TvTracker";
 
 function Projects() {
   return (
-    <div className="pb-5">
-      <Section title="My Portfolio" className="mt-3" />
+    <div className="pb-5 container">
+      <Section title="My Portfolio" className="pt-4" />
       <Portfolio />
 
-      <Section title="Shipping Bids" className="mt-3" />
+      <Section title="Shipping Bids" className="pt-3" />
       <ShippingBids />
 
-      <Section title="Tv-Tracker" className="mt-3" />
+      <Section title="Tv-Tracker" className="pt-3" />
       <TvTracker />
 
-      <Section title="ScubaDiver" className="mt-3" />
+      <Section title="ScubaDiver" className="pt-3" />
       <ScubaDiver />
 
-      <Section title="Online tool for noobs" className="mt-3" />
+      <Section title="Online tool for noobs" className="pt-3" />
       <Otfn />
     </div>
   );

@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { LangContext } from "../../../contexts/LangContext";
+import espana from "./icons/espana.png"
+import england from "./icons/reino-unido.png"
 
 function NavBar() {
   const navButton = useRef(null);
@@ -26,14 +28,13 @@ function NavBar() {
   }
   
   return lang?.lang === "eng" ? (
-    <nav className="navbar navbar-expand-lg bg-secondary bg-gradient">
+    <nav className="navbar navbar-expand-lg bg-secondary bg-gradient fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand text-light ms-3" to="/portfolio" onClick={collapseNav}>
           Iván Rodríguez
         </Link>
         <div type="button" onClick={() => handleClick()} className="ms-auto me-3 d-flex gap-2">
-          <h4>Lang:</h4>
-          <h4 className="text-dark">{lang?.lang}</h4>
+          <span><img className="text-dark" src={espana} width="30" alt="español"></img></span>
         </div>
         <button
           ref={navButton}
@@ -72,14 +73,13 @@ function NavBar() {
       </div>
     </nav>
   ) : (
-    <nav className="navbar navbar-expand-lg bg-secondary bg-gradient">
+    <nav className="navbar navbar-expand-lg bg-secondary bg-gradient fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand text-light ms-3" to="/portfolio" onClick={collapseNav}>
           Iván Rodríguez
         </Link>
         <div type="button" onClick={() => handleClick()} className="ms-auto me-3 d-flex gap-2">
-          <h4>Lang:</h4>
-          <h4 className="text-dark">{lang?.lang}</h4>
+          <span><img className="text-dark" src={england} width="30" alt="england"></img></span>
         </div>
         <button
           ref={navButton}

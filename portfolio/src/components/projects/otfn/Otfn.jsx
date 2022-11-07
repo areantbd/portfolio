@@ -16,31 +16,31 @@ function Otfn() {
   return (
     <div>
       <div
-        id="carouselExampleControls"
+        id="carousel-otfn"
         className="carousel slide"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner ">
           <div className="carousel-item active">
-            <img src={menu} className="d-block w-75 mx-auto" alt={menu} />
+            <img src={menu} className="d-block w-75 mx-auto rounded" alt={menu} />
           </div>
           <div className="carousel-item">
-            <img src={google} className="d-block w-75 mx-auto" alt={google} />
+            <img src={google} className="d-block w-75 mx-auto rounded" alt={google} />
           </div>
           <div className="carousel-item">
-            <img src={pdf} className="d-block w-75 mx-auto" alt={pdf} />
+            <img src={pdf} className="d-block w-75 mx-auto rounded" alt={pdf} />
           </div>
           <div className="carousel-item">
-            <img src={audio} className="d-block w-75 mx-auto" alt={audio} />
+            <img src={audio} className="d-block w-75 mx-auto rounded" alt={audio} />
           </div>
           <div className="carousel-item">
-            <img src={varios} className="d-block w-75 mx-auto" alt={varios} />
+            <img src={varios} className="d-block w-75 mx-auto rounded" alt={varios} />
           </div>
         </div>
         <button
           className="carousel-control-prev "
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carousel-otfn"
           data-bs-slide="prev"
         >
           <span
@@ -52,7 +52,7 @@ function Otfn() {
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carousel-otfn"
           data-bs-slide="next"
         >
           <span
@@ -64,7 +64,7 @@ function Otfn() {
       </div>
       {lang?.lang === "esp" ? (
         <>
-          <h4>
+          <h4 className="mt-3 container">
             Online tools for noobs es mi primer proyecto terminado. <br />
             Es un proyecto que hice por petición de mi mujer para juntar en un
             mismo sitio herramientas online gratuitas que utilizaba en mi día a
@@ -74,8 +74,8 @@ function Otfn() {
             adquiridos de modo autodidacta y gracias al pre-work del BootCamp,
             con lo que no es de lo más bonito, por supuesto no es responsive y
             no tiene toda la funcionalidad que hoy le podría dar y que en algún
-            momento me gustaría darle. Con lo que... sabiendo esto, por favor,
-            no lo juzgues muy duramente.
+            momento me gustaría darle. <br/>
+            Con lo que... sabiendo esto, por favor, no lo juzgues muy duramente.
           </h4>
           <div className="text-center">
             <a
@@ -83,13 +83,13 @@ function Otfn() {
               target="_blank"
               rel="noreferrer"
             >
-              Ir al proyecto
+              Ir al proyecto.
             </a>
           </div>
         </>
       ) : (
         <>
-          <h4>
+          <h4 className="mt-3 container">
             Online tools for noobs is my first finished project. <br />
             It is a project that I made by request of my wife to gather in one
             place free online tools that I used in my daily life and others that
@@ -98,7 +98,8 @@ function Otfn() {
             in a self-taught way and thanks to the pre-work of BootCamp, so it
             is not the prettiest, of course it is not responsive and does not
             have all the functionality that today I could give it and that at
-            some point I would like to give it. So... knowing this, please don't
+            some point I would like to give it. <br/>
+            So... knowing this, please don't
             judge it too harshly.
           </h4>
           <div className="text-center">
@@ -107,7 +108,7 @@ function Otfn() {
               target="_blank"
               rel="noreferrer"
             >
-              Go to the project
+              Go to the project.
             </a>
           </div>
         </>
