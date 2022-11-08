@@ -13,6 +13,7 @@ function App() {
         position: "relative",
         backgroundColor: "#252525",
         minHeight: "100vh",
+        minWidth: "100vw"
       }}
       className="h-100 text-light"
     >

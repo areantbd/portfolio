@@ -7,6 +7,8 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlined";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import codeWars from "./icons/codewars_logo_icon_145389.ico"
 import { grey } from "@mui/material/colors";
 import ScrollUp from "../scroll-up/ScrollUp";
 
@@ -41,6 +43,14 @@ const actions = [
   },
   {
     icon: (
+      <a href="mailto:areantbd@gmail.com" target="_blank" rel="noreferrer">
+        <AlternateEmailOutlinedIcon />
+      </a>
+    ),
+    name: "Email",
+  },
+  {
+    icon: (
       <a
         href="https://calendly.com/ivantbd"
         target="_blank"
@@ -54,11 +64,21 @@ const actions = [
   },
   {
     icon: (
-      <a href="mailto:areantbd@gmail.com" target="_blank" rel="noreferrer">
-        <AlternateEmailOutlinedIcon />
+      <a href="https://github.com/areantbd" target="_blank" rel="noreferrer" 
+      className="text-dark text-decoration-none">
+        <GitHubIcon />
       </a>
     ),
-    name: "Email",
+    name: "Github",
+  },
+  {
+    icon: (
+      <a href="https://www.codewars.com/users/Ivan180687" target="_blank" rel="noreferrer" 
+      className="text-dark text-decoration-none">
+        <img src={codeWars} className="w-50 rounded-5" alt="codeWars" style={{backgroundColor: "red"}}></img>
+      </a>
+    ),
+    name: "CodeWars",
   },
 ];
 const greyLight = grey[500];

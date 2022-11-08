@@ -31,7 +31,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg bg-secondary bg-gradient fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand text-light ms-3" to="/portfolio" onClick={collapseNav}>
-          Iván Rodríguez
+          My Portfolio
         </Link>
         <div type="button" onClick={() => handleClick()} className="ms-auto me-3 d-flex gap-2">
           <span><img className="text-dark" src={espana} width="30" alt="español"></img></span>
@@ -76,7 +76,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg bg-secondary bg-gradient fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand text-light ms-3" to="/portfolio" onClick={collapseNav}>
-          Iván Rodríguez
+          Mi Portfolio
         </Link>
         <div type="button" onClick={() => handleClick()} className="ms-auto me-3 d-flex gap-2">
           <span><img className="text-dark" src={england} width="30" alt="england"></img></span>
