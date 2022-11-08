@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.183099c2.css",
-    "main.js": "/portfolio/static/js/main.e73d3489.js",
+    "main.css": "/portfolio/static/css/main.fcf8961e.css",
+    "main.js": "/portfolio/static/js/main.79289da8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/scuba3.png": "/portfolio/static/media/scuba3.52b9ed5cfc293d77df3d.png",
     "static/media/scuba4.png": "/portfolio/static/media/scuba4.dcbb5a30124cc5278a86.png",
@@ -19,16 +19,19 @@
     "static/media/otfn-audio.png": "/portfolio/static/media/otfn-audio.ac124888f026a295dd96.png",
     "static/media/Shippingbids 3.png": "/portfolio/static/media/Shippingbids 3.e8782a694db83a305ec0.png",
     "static/media/tvtracker3.png": "/portfolio/static/media/tvtracker3.902f3cb4b6a6dcfc453c.png",
+    "static/media/codewars_logo_icon_145389.ico": "/portfolio/static/media/codewars_logo_icon_145389.348a10c3a1e30c8c7bcc.ico",
+    "static/media/me.png": "/portfolio/static/media/me.269ea32a5655b43df51f.png",
     "static/media/otfn-google.png": "/portfolio/static/media/otfn-google.7b7be4cc432be581df0c.png",
     "static/media/Shippingbids 4.png": "/portfolio/static/media/Shippingbids 4.a854077a40d903192ffa.png",
+    "static/media/home-code.png": "/portfolio/static/media/home-code.65e1649ac38bd448efdb.png",
     "static/media/reino-unido.png": "/portfolio/static/media/reino-unido.789ff1da7dc0b7ff0220.png",
     "index.html": "/portfolio/index.html",
-    "main.183099c2.css.map": "/portfolio/static/css/main.183099c2.css.map",
-    "main.e73d3489.js.map": "/portfolio/static/js/main.e73d3489.js.map",
+    "main.fcf8961e.css.map": "/portfolio/static/css/main.fcf8961e.css.map",
+    "main.79289da8.js.map": "/portfolio/static/js/main.79289da8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.183099c2.css",
-    "static/js/main.e73d3489.js"
+    "static/css/main.fcf8961e.css",
+    "static/js/main.79289da8.js"
   ]
 }
