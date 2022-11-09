@@ -109,7 +109,7 @@ function ScubaDiver() {
               target="_blank"
               rel="noreferrer"
             >
-              Ir al proyecto.
+              Ir al proyecto (Sólo PC).
             </a>
           </div>
         </>
@@ -131,7 +131,7 @@ function ScubaDiver() {
               target="_blank"
               rel="noreferrer"
             >
-              Go to the project.
+              Go to the project (PC Only).
             </a>
           </div>
         </>
