@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fcf8961e.css",
-    "main.js": "/portfolio/static/js/main.79289da8.js",
+    "main.js": "/portfolio/static/js/main.6772760c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/me2.png": "/portfolio/static/media/me2.3577ccc2640a67a8fd00.png",
     "static/media/scuba3.png": "/portfolio/static/media/scuba3.52b9ed5cfc293d77df3d.png",
     "static/media/scuba4.png": "/portfolio/static/media/scuba4.dcbb5a30124cc5278a86.png",
     "static/media/scuba6.png": "/portfolio/static/media/scuba6.e2c27c618b796e0a7c00.png",
@@ -20,18 +21,17 @@
     "static/media/Shippingbids 3.png": "/portfolio/static/media/Shippingbids 3.e8782a694db83a305ec0.png",
     "static/media/tvtracker3.png": "/portfolio/static/media/tvtracker3.902f3cb4b6a6dcfc453c.png",
     "static/media/codewars_logo_icon_145389.ico": "/portfolio/static/media/codewars_logo_icon_145389.348a10c3a1e30c8c7bcc.ico",
-    "static/media/me.png": "/portfolio/static/media/me.269ea32a5655b43df51f.png",
     "static/media/otfn-google.png": "/portfolio/static/media/otfn-google.7b7be4cc432be581df0c.png",
     "static/media/Shippingbids 4.png": "/portfolio/static/media/Shippingbids 4.a854077a40d903192ffa.png",
     "static/media/home-code.png": "/portfolio/static/media/home-code.65e1649ac38bd448efdb.png",
     "static/media/reino-unido.png": "/portfolio/static/media/reino-unido.789ff1da7dc0b7ff0220.png",
     "index.html": "/portfolio/index.html",
     "main.fcf8961e.css.map": "/portfolio/static/css/main.fcf8961e.css.map",
-    "main.79289da8.js.map": "/portfolio/static/js/main.79289da8.js.map",
+    "main.6772760c.js.map": "/portfolio/static/js/main.6772760c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcf8961e.css",
-    "static/js/main.79289da8.js"
+    "static/js/main.6772760c.js"
   ]
 }
