@@ -33,7 +33,7 @@ function NavBar() {
         <Link className="navbar-brand text-light ms-3" to="/portfolio" onClick={collapseNav}>
           My Portfolio
         </Link>
-        <div type="button" onClick={() => handleClick()} className="ms-auto me-3 d-flex gap-2">
+        <div type="button" onClick={() => handleClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
           <span><img className="text-dark" src={espana} width="30" alt="español"></img></span>
         </div>
         <button
@@ -66,7 +66,7 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/certificates"  onClick={collapseNav} >Libre</Link>
+              <a className="nav-link text-light" href="https://drive.google.com/file/d/1RBZLcNbRzvwgJaYDIUh5gM47I6FH8-r-/view?usp=share_link" target="_blank" onClick={collapseNav} rel="noreferrer" >Curiculum Vitae</a>
             </li>
           </ul>
         </div>

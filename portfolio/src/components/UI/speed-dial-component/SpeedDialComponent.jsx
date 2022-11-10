@@ -87,7 +87,7 @@ const greyDark = grey[800];
 export default function SpeedDialComponent() {
   return (
     <>
-      <Box sx={{ height: 55, transform: "translateZ(0px)", flexGrow: 1 }}>
+      <Box sx={{ height: 0, transform: "translateZ(0px)", flexGrow: 1 }}>
         <SpeedDial
           ariaLabel="SpeedDial openIcon example"
           sx={{ position: "absolute", bottom: 16, left: 16, height: 80}}
