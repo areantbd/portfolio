@@ -3,16 +3,22 @@ import { Link, NavLink } from "react-router-dom";
 import { LangContext } from "../../../contexts/LangContext";
 import espana from "./icons/espana.png"
 import england from "./icons/reino-unido.png"
+import sol from "./icons/sol.png"
+import luna from "./icons/luna-creciente.png"
+import { ThemeContext } from "../../../contexts/ThemeContext";
 
 function NavBar() {
   const navButton = useRef(null);
   const linksContainerRef = useRef(null);
   const [lang, setLang] = useState(undefined)
+  const [theme, setTheme] = useState(undefined)
   const languaje = useContext(LangContext)
+  const mode = useContext(ThemeContext)
 
   useEffect(() => {
     setLang(languaje)
-  }, [languaje])
+    setTheme(mode)
+  }, [languaje, mode])
 
   function collapseNav() {
     navButton.current.classList.add("collapsed");
@@ -26,6 +32,13 @@ function NavBar() {
       languaje.setLang("eng")
     }
   }
+  const themeClick = () => {
+    if (theme?.theme === "dark") {
+      mode.setTheme("light")
+    } else {
+      mode.setTheme("dark")
+    }
+  }
   
   return lang?.lang === "eng" ? (
     <nav className="navbar navbar-expand-lg bg-secondary bg-gradient fixed-top">
@@ -36,6 +49,16 @@ function NavBar() {
         <div type="button" onClick={() => handleClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
           <span><img className="text-dark" src={espana} width="30" alt="español"></img></span>
         </div>
+        { theme?.theme === "dark" ? (
+          <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
+            <span><img className="text-dark" src={sol} width="30" alt="español"></img></span>
+          </div>
+        ) : (
+          <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
+            <span><img className="text-dark" src={luna} width="30" alt="español"></img></span>
+          </div>
+        )}
+        
         <button
           ref={navButton}
           className="navbar-toggler"
@@ -81,6 +104,15 @@ function NavBar() {
         <div type="button" onClick={() => handleClick()} className="ms-auto me-3 d-flex gap-2">
           <span><img className="text-dark" src={england} width="30" alt="england"></img></span>
         </div>
+        { theme?.theme === "dark" ? (
+          <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
+            <span><img className="text-dark" src={sol} width="30" alt="español"></img></span>
+          </div>
+        ) : (
+          <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
+            <span><img className="text-dark" src={luna} width="30" alt="español"></img></span>
+          </div>
+        )}
         <button
           ref={navButton}
           className="navbar-toggler"
