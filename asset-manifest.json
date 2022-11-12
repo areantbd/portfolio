@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fcf8961e.css",
-    "main.js": "/portfolio/static/js/main.a20fd97d.js",
+    "main.js": "/portfolio/static/js/main.24d88752.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/port1.png": "/portfolio/static/media/port1.a1730d99b1e1b2ac553f.png",
     "static/media/me2.png": "/portfolio/static/media/me2.3577ccc2640a67a8fd00.png",
     "static/media/scuba3.png": "/portfolio/static/media/scuba3.52b9ed5cfc293d77df3d.png",
     "static/media/scuba4.png": "/portfolio/static/media/scuba4.dcbb5a30124cc5278a86.png",
@@ -10,9 +11,11 @@
     "static/media/scuba2.png": "/portfolio/static/media/scuba2.41cc856c45b75dedf311.png",
     "static/media/scuba1.png": "/portfolio/static/media/scuba1.2ee58bcdfd2181e84886.png",
     "static/media/scuba5.png": "/portfolio/static/media/scuba5.6d0fa180c2160e689bcc.png",
+    "static/media/port4.png": "/portfolio/static/media/port4.e96fc64ae846babf8f9d.png",
     "static/media/Shippingbids 1.png": "/portfolio/static/media/Shippingbids 1.299baa3d7c34131f881f.png",
     "static/media/tvtracker1.png": "/portfolio/static/media/tvtracker1.1eba17b4d6fbcfaf705b.png",
     "static/media/tvtracker2.png": "/portfolio/static/media/tvtracker2.b9f6e1716df22e606a59.png",
+    "static/media/port2.png": "/portfolio/static/media/port2.4122870c03c5df760d7f.png",
     "static/media/otfn-varios.png": "/portfolio/static/media/otfn-varios.285f328cb3b9d4f465d9.png",
     "static/media/otfn-menu.png": "/portfolio/static/media/otfn-menu.92d2f2269f0142f2fce2.png",
     "static/media/Shippingbids 2.png": "/portfolio/static/media/Shippingbids 2.07a66e97083cabbf7b5b.png",
@@ -23,17 +26,18 @@
     "static/media/codewars_logo_icon_145389.ico": "/portfolio/static/media/codewars_logo_icon_145389.348a10c3a1e30c8c7bcc.ico",
     "static/media/otfn-google.png": "/portfolio/static/media/otfn-google.7b7be4cc432be581df0c.png",
     "static/media/Shippingbids 4.png": "/portfolio/static/media/Shippingbids 4.a854077a40d903192ffa.png",
+    "static/media/port3.png": "/portfolio/static/media/port3.1ea06bd314173b0a670a.png",
     "static/media/home-code.png": "/portfolio/static/media/home-code.65e1649ac38bd448efdb.png",
     "static/media/sol.png": "/portfolio/static/media/sol.25084e15152fde7c93ed.png",
     "static/media/reino-unido.png": "/portfolio/static/media/reino-unido.789ff1da7dc0b7ff0220.png",
     "static/media/luna-creciente.png": "/portfolio/static/media/luna-creciente.5846588fec95ff8b3fe5.png",
     "index.html": "/portfolio/index.html",
     "main.fcf8961e.css.map": "/portfolio/static/css/main.fcf8961e.css.map",
-    "main.a20fd97d.js.map": "/portfolio/static/js/main.a20fd97d.js.map",
+    "main.24d88752.js.map": "/portfolio/static/js/main.24d88752.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcf8961e.css",
-    "static/js/main.a20fd97d.js"
+    "static/js/main.24d88752.js"
   ]
 }
