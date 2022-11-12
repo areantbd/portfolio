@@ -10,7 +10,7 @@ function AboutMe() {
   }, [languaje]);
 
   return lang?.lang === "esp" ? (
-    <div className="container pt-5">
+    <div className="container py-5">
       <p>
         Mi nombre es <b>Iván Rodríguez</b> y esto es un poquito de mi:
       </p>{" "}

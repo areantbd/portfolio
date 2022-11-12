@@ -49,6 +49,7 @@ function NavBar() {
         <div type="button" onClick={() => handleClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
           <span><img className="text-dark" src={espana} width="30" alt="español"></img></span>
         </div>
+        <div>
         { theme?.theme === "dark" ? (
           <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
             <span><img className="text-dark" src={sol} width="30" alt="español"></img></span>
@@ -58,6 +59,7 @@ function NavBar() {
             <span><img className="text-dark" src={luna} width="30" alt="español"></img></span>
           </div>
         )}
+        </div>
         
         <button
           ref={navButton}
@@ -88,9 +90,9 @@ function NavBar() {
                 Certificates
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link text-light" href="https://drive.google.com/file/d/1RBZLcNbRzvwgJaYDIUh5gM47I6FH8-r-/view?usp=share_link" target="_blank" onClick={collapseNav} rel="noreferrer" >Curiculum Vitae</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
@@ -104,15 +106,17 @@ function NavBar() {
         <div type="button" onClick={() => handleClick()} className="ms-auto me-3 d-flex gap-2">
           <span><img className="text-dark" src={england} width="30" alt="england"></img></span>
         </div>
-        { theme?.theme === "dark" ? (
-          <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
-            <span><img className="text-dark" src={sol} width="30" alt="español"></img></span>
-          </div>
-        ) : (
-          <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
-            <span><img className="text-dark" src={luna} width="30" alt="español"></img></span>
-          </div>
-        )}
+        <div>
+          { theme?.theme === "dark" ? (
+            <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
+              <span><img className="text-dark" src={sol} width="30" alt="español"></img></span>
+            </div>
+          ) : (
+            <div type="button" onClick={() => themeClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">
+              <span><img className="text-dark" src={luna} width="30" alt="español"></img></span>
+            </div>
+          )}
+        </div>
         <button
           ref={navButton}
           className="navbar-toggler"
@@ -142,9 +146,9 @@ function NavBar() {
                 Certificados
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link text-light" to="/certificates"  onClick={collapseNav} >Libre</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
