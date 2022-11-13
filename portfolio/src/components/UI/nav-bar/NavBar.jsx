@@ -43,7 +43,7 @@ function NavBar() {
   return lang?.lang === "eng" ? (
     <nav className="navbar navbar-expand-lg bg-secondary bg-gradient fixed-top">
       <div className="container-fluid">
-        <Link className="navbar-brand text-light ms-3" to="/portfolio" onClick={collapseNav}>
+        <Link className="navbar-brand text-light ms-3" to="/" onClick={collapseNav}>
           My Portfolio
         </Link>
         <div type="button" onClick={() => handleClick()} disabled="true" className="ms-auto me-3 d-flex gap-2">

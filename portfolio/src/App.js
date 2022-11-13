@@ -29,7 +29,7 @@ function App() {
       <NavBar />
 
       <Routes>
-        <Route path="/portfolio" element={<HomeScreen />} />
+        <Route path="/" element={<HomeScreen />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/certificates" element={<Certificates />} />
